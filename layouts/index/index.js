@@ -1,0 +1,2 @@
+//page script
+alert('pages');

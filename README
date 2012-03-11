@@ -1,0 +1,31 @@
+Симптомы:
+
+Блок A имеет элемент A__a.
+
+Блок A подключен к блоку B и блоку D.
+
+Блок B подключен к блоку C, который подключен к блоку D.
+
+После сборки деклорация об элемент A__a в deps-фале отсутствует, соответственно и в сборке.
+
+Если отсоединить блок A от блока B или блока D и оставить только в одном из них. То декларация элемента A__a появляется в deps-файле и в сборке.
+
+Тест проходит только на js-фалах.
+
+
+_______________________________________
+
+
+Symptoms:
+
+In block "A" has an element "A__a".
+
+Block "A" is connected to the block "B" and block "D".
+
+Block "B" is connected to the block "C", which is connected to the block "D".
+
+After assembly of the element, the declaration A__a in deps-falle absent, respectively, and in the assembly.
+
+If you remove declaration the block "A" in block "B" or in block "D", and leave only one of them. That element declaration "A__a" appended in deps-file and in the assembly.
+
+The test is only js-files.
